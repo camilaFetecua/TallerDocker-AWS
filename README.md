@@ -24,10 +24,57 @@ usando EC2 y Docker.
     + docker version
     
   ## Instalacion 
-  
-    Para descargar el proyecto de GitHub, primero debemos clonar el  repositorio con el siguiente comando
+   Para descargar el proyecto de GitHub, primero debemos clonar el  repositorio con el siguiente comando
     
     git clone 
+    
+  Para ejecutar el rpoyecto con la herramienta Maven debemos ejecutar el siguiente comando.
+     
+     mvn package
+     
+  ## Bitacora
+  
+  1.Se crea el proyecto Maven y se crea la clase principal. 
+  
+ IMAGEN 1 
+ 
+ 2. Se crean las imagenes para docker y con Docker compose se deine la estrategia de despliegue sobre Docker y el Docker file que permite definir los archivos como vemos en la siguiente imagen. 
+
+Imagen 2 
+
+3. Usamos el comando docker build --tag dockersparkprimer para crear una referencia a la imagen con el nombre del repositorio donde se quiere subir. Y verificamos que las imagenes esten creadas correctamente.
+
+Imagen 3
+
+4. Creamos contenedores con el siguiente comando 
+
+  docker run -d -p 42000:6000 --name firstdockerimageaws camilaFetecua/firstsprkwebapprepo
+  
+5. Verificamos que se creen correctamente 
+
+  Imagen 4 
+  
+6. Creamos una referencia de la imagen y la subimos al repositorio en DockerHub y podemos visualizar el contenedor en DockerHub 
+
+Imagen 5 
+
+7. Creamos una instancia en AWS e instalamos Docker en la maquina.
+8. A partir de la imagen creada en Dockerhub cree una instancia de un contenedor docker independiente de la consola (opción “-d”) y con el puerto 6000 enlazado a un puerto físico de su máquina (opción -p).
+
+8. Verificamos que las imagenes esten en el Docker.
+9. 
+10. 
+11.
+
+
+
+
+
+
+  
+  
+     
+     
     
     
   
