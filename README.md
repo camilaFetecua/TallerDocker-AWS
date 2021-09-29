@@ -59,12 +59,23 @@ Imagen 3
 Imagen 5 
 
 7. Creamos una instancia en AWS e instalamos Docker en la maquina.
-8. A partir de la imagen creada en Dockerhub cree una instancia de un contenedor docker independiente de la consola (opción “-d”) y con el puerto 6000 enlazado a un puerto físico de su máquina (opción -p).
+Imagen 6 
+Imagen 7 
 
-8. Verificamos que las imagenes esten en el Docker.
-9. 
-10. 
-11.
+
+8.Instalamos Docker en la maquina aws 
+Imagen 13 
+9. Configuramos los puertos en el grupo de seguridad 
+Evidencia Puertos 
+10. A partir de la imagen creada en Dockerhub cree una instancia de un contenedor docker independiente de la consola (opción “-d”) y con el puerto 6000 enlazado a un puerto físico de su máquina (opción -p)
+Imagen 14 
+11.  Verificamos que las imagenes esten creadas 
+Imagen 15 
+12. Verificamos el funcionamiento
+
+Imagen 16
+
+
 
 
 
