@@ -73,9 +73,20 @@ usando EC2 y Docker.
 11.  Verificamos que las imagenes esten creadas 
 ![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia15.PNG)
 
-12. Verificamos el funcionamiento
+12. Para terminar , verificamos el funcionamiento.
 
-Imagen 16
+
+
+ # Licencia
+
+  Para consultar la Licencia del proyecto haga [click aqui](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/LICENSE)
+  
+  
+# Autor 
+  **Maria Camila Fetecua Garcia** 
+
+
+
 
 
 
