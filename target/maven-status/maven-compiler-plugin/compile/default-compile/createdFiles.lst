@@ -1,1 +1,5 @@
+co\edu\escuelaing\Docker\Word.class
+co\edu\escuelaing\Docker\MongoServer.class
+co\edu\escuelaing\sparkdockerdemolive\HttpClient.class
+co\edu\escuelaing\Docker\SparkDocker.class
 co\edu\escuelaing\sparkdockerdemolive\SparkWebServer.class
