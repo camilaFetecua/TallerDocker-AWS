@@ -36,15 +36,15 @@ usando EC2 y Docker.
   
   1.Se crea el proyecto Maven y se crea la clase principal. 
   
- IMAGEN 1 
+   ![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia1.PNG)
  
  2. Se crean las imagenes para docker y con Docker compose se deine la estrategia de despliegue sobre Docker y el Docker file que permite definir los archivos como vemos en la siguiente imagen. 
 
-Imagen 2 
+![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia2.PNG)
 
 3. Usamos el comando docker build --tag dockersparkprimer para crear una referencia a la imagen con el nombre del repositorio donde se quiere subir. Y verificamos que las imagenes esten creadas correctamente.
 
-Imagen 3
+![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia3.PNG)
 
 4. Creamos contenedores con el siguiente comando 
 
@@ -52,25 +52,27 @@ Imagen 3
   
 5. Verificamos que se creen correctamente 
 
-  Imagen 4 
+ ![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia4.PNG)
   
 6. Creamos una referencia de la imagen y la subimos al repositorio en DockerHub y podemos visualizar el contenedor en DockerHub 
 
-Imagen 5 
+![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia5.PNG)
 
 7. Creamos una instancia en AWS e instalamos Docker en la maquina.
-Imagen 6 
-Imagen 7 
+  ![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia6.PNG)
+  ![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia7.PNG)
 
 
 8.Instalamos Docker en la maquina aws 
-Imagen 13 
+![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia13.PNG)
+
 9. Configuramos los puertos en el grupo de seguridad 
-Evidencia Puertos 
+  ![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/EvidenciaPuertos.PNG)
 10. A partir de la imagen creada en Dockerhub cree una instancia de un contenedor docker independiente de la consola (opción “-d”) y con el puerto 6000 enlazado a un puerto físico de su máquina (opción -p)
-Imagen 14 
+![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia14.PNG) 
 11.  Verificamos que las imagenes esten creadas 
-Imagen 15 
+![Imagen](https://github.com/camilaFetecua/TallerDocker-AWS/blob/master/Imagenes/Evidencia15.PNG)
+
 12. Verificamos el funcionamiento
 
 Imagen 16
